@@ -9,7 +9,7 @@ function checksum() {
   c=$(echo $s | shasum | awk '{print $1}')
   if [ "$c" = "$2" ]
   then
-    echo $s
+    printf %s\\n "$s"
   else
     echo "invalid checksum $c != $2" 1>&2;
   fi
