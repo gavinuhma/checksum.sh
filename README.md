@@ -90,6 +90,12 @@ checksum https://raw.githubusercontent.com/capeprivacy/cli/main/install.sh 23094
 checksum https://raw.githubusercontent.com/capeprivacy/nitrogen/main/install.sh 8012d9e1d1420942f0ae6955fc99c790d52e9c3e | sh
 ```
 
+### Install [Nix](https://nixos.org/download.html)
+
+```bash
+checksum https://nixos.org/nix/install 84b31e0093aaa169c1f580c2fbe2397d059d1983 | sh
+```
+
 ### Install [Deno](https://deno.land/#installation)
 ```bash
 checksum https://deno.land/install.sh 57a4d67e64d2a7204541b9e131cedb289a79e834 | sh
