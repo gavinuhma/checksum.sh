@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function checksum() {
-  s=$(curl -fsSL $1)
+  s=$(curl -fsSL "$1")
   if ! command -v shasum >/dev/null
   then
     alias shasum=sha1sum
