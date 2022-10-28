@@ -6,7 +6,7 @@ function checksum() {
   then
     alias shasum=sha1sum
   fi
-  c=$(echo $s | shasum | awk '{print $1}')
+  c=$(printf %s\\n "$s" | shasum | awk '{print $1}')
   if [ "$c" = "$2" ]
   then
     printf %s\\n "$s"
