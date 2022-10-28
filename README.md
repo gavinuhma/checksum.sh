@@ -2,7 +2,7 @@
 
 ![checksum.sh](./checksum.sh.png?raw=true "checksum.sh Logo")
 
-Checksum.sh is a simple way to download, review, and verify install scripts. If the checksum is OK the script will be printed to stdout, which can be piped to `sh` or elsewhere. If the checksum doesn't match it produces an error and nothing is piped.
+Checksum.sh is a simple way to download, review, and verify install scripts. If the checksum is OK the script will be printed to stdout, which can be piped to `sh` or elsewhere. If the checksum doesn't match it produces an error and nothing is piped. [View the code on GitHub](https://github.com/gavinuhma/checksum.sh).
 
 For example, to install Rust:
 ```bash
@@ -41,7 +41,7 @@ function checksum() {
 
 **Option 2: Download the script**
 
-Alternatively, you can download, review and verify the checksum.sh script:
+Alternatively, you can download, review and verify the [checksum.sh script](https://github.com/gavinuhma/checksum.sh/blob/main/checksum.sh):
 ```bash
 curl -O https://checksum.sh/checksum.sh
 cat checksum.sh
