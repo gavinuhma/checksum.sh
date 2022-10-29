@@ -25,7 +25,7 @@ function checksum() {
   s=$(curl -fsSL "$1")
   if ! command -v shasum >/dev/null
   then
-    alias shasum=sha1sum
+    shasum() { sha1sum "$@"; }
   fi
   c=$(printf %s\\n "$s" | shasum | awk '{print $1}')
   if [ "$c" = "$2" ]
@@ -45,7 +45,7 @@ Alternatively, you can download, review and verify the [checksum.sh script](http
 ```bash
 curl -O https://checksum.sh/checksum.sh
 cat checksum.sh
-echo "132e320edb0027470bfd836af8dadf174e4fee0e  checksum.sh" | shasum -c
+echo "26f0b74833d2b98c72c09dcb46f10eab18ac57a3  checksum.sh" | shasum -c
 ```
 
 If everything is OK, you can source the script which will define the `checksum` function.

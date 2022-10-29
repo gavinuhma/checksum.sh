@@ -4,7 +4,7 @@ function checksum() {
   s=$(curl -fsSL "$1")
   if ! command -v shasum >/dev/null
   then
-    alias shasum=sha1sum
+    shasum() { sha1sum "$@"; }
   fi
   c=$(printf %s\\n "$s" | shasum | awk '{print $1}')
   if [ "$c" = "$2" ]
