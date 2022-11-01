@@ -2,7 +2,10 @@
 
 ![checksum.sh](./checksum.sh.png?raw=true "checksum.sh Logo")
 
-![GitHub Repo stars](https://img.shields.io/github/stars/gavinuhma/checksum.sh?style=social)
+[![GitHub top language](https://img.shields.io/github/languages/top/gavinuhma/checksum.sh)](https://github.com/gavinuhma/checksum.sh)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gavinuhma/checksum.sh)](https://github.com/gavinuhma/checksum.sh)
+[![GitHub license](https://img.shields.io/github/license/gavinuhma/checksum.sh)](https://github.com/gavinuhma/checksum.sh)
+[![GitHub repo stars](https://img.shields.io/github/stars/gavinuhma/checksum.sh?style=social)](https://github.com/gavinuhma/checksum.sh)
 
 Checksum.sh is a simple way to download, review, and verify install scripts. If the checksum is OK the script will be printed to stdout, which can be piped to `sh` or elsewhere. If the checksum doesn't match it produces an error and nothing is piped. [View the code on GitHub](https://github.com/gavinuhma/checksum.sh).
 
