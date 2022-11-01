@@ -2,6 +2,8 @@
 
 ![checksum.sh](./checksum.sh.png?raw=true "checksum.sh Logo")
 
+![GitHub Repo stars](https://img.shields.io/github/stars/gavinuhma/checksum.sh?style=social)
+
 Checksum.sh is a simple way to download, review, and verify install scripts. If the checksum is OK the script will be printed to stdout, which can be piped to `sh` or elsewhere. If the checksum doesn't match it produces an error and nothing is piped. [View the code on GitHub](https://github.com/gavinuhma/checksum.sh).
 
 For example, to install Rust:
