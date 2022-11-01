@@ -22,20 +22,23 @@ Paste the following into your command line to define the `checksum` function.
 
 ```bash
 function checksum() {
+  local s
   s=$(curl -fsSL "$1")
-  if ! command -v shasum >/dev/null
-  then
-    shasum() { sha1sum "$@"; }
-  fi
-  c=$(printf %s\\n "$s" | shasum | awk '{print $1}')
-  if [ "$c" = "$2" ]
-  then
-    printf %s\\n "$s"
+  local h
+  if command -v shasum >/dev/null ; then
+    h=shasum
   else
-    echo "invalid checksum $c != $2" 1>&2;
+    h=sha1sum
   fi
-  unset s
-  unset c
+  if [ ! "$2" ] ; then
+    printf %s\\n "$s" | "$h" | awk '{print $1}'
+    return 1;
+  fi
+  printf %s\\n "$s" | "$h" --check --status <(printf '%s  -\n' "$2") || {
+    echo "checksum failed" >&2;
+    return 1;
+  }
+  printf %s\\n "$s"
 }
 ```
 
@@ -45,7 +48,7 @@ Alternatively, you can download, review and verify the [checksum.sh script](http
 ```bash
 curl -O https://checksum.sh/checksum.sh
 cat checksum.sh
-echo "26f0b74833d2b98c72c09dcb46f10eab18ac57a3  checksum.sh" | shasum -c
+echo "df260dd53581e6e30c0afbe32b80db6b0bec2d07  checksum.sh" | shasum -c
 ```
 
 If everything is OK, you can source the script which will define the `checksum` function.
