@@ -95,7 +95,7 @@ checksum https://raw.githubusercontent.com/capeprivacy/cli/main/install.sh 23094
 ### Install [Nitrogen](https://github.com/capeprivacy/nitrogen)
 
 ```bash
-checksum https://raw.githubusercontent.com/capeprivacy/nitrogen/main/install.sh 8012d9e1d1420942f0ae6955fc99c790d52e9c3e | sh
+checksum https://raw.githubusercontent.com/capeprivacy/nitrogen/main/install.sh 6fe53cec000421f8052c6f267f170c6f9c47dffc | sh
 ```
 
 ### Install [Nix](https://nixos.org/download.html)
