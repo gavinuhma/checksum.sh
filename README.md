@@ -144,3 +144,4 @@ Thank you to those who have contributued code and ideas through pull requests, i
 - [@orblivion](https://github.com/orblivion)
 - [@rnhmjoj](https://github.com/rnhmjoj)
 - [@dundarious](https://github.com/dundarious)
+- [@vyings](https://github.com/vyings)
