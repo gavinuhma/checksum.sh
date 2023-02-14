@@ -83,7 +83,7 @@ _Note: If any of these install scripts have changed these commands will error be
 ### Install [Rust](https://www.rust-lang.org/tools/install)
 
 ```bash
-checksum https://sh.rustup.rs 319d854317833339e879de9732fc92b437925c54 | sh
+checksum https://sh.rustup.rs 6282be0e90f8f9e041a4f714039e61bf8c03ad85 | sh
 ```
 
 ### Install [Cape](https://docs.capeprivacy.com/getting-started/)
