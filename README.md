@@ -119,7 +119,7 @@ checksum https://bun.sh/install 86c651cf7aac32cceb3688f0a4e026776c965b49 | bash
 ### Install [Haskell](https://www.haskell.org/ghcup)
 
 ```bash
-checksum https://get-ghcup.haskell.org 0832bdb75ae910fef495a03743de690280f50f96 | sh
+checksum https://get-ghcup.haskell.org d1fe43ba1316fd89170c68d042dc2c6ac3979965 | sh
 ```
 
 ### Install [Homebrew](https://brew.sh/#install)
