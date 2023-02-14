@@ -133,3 +133,15 @@ checksum https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh 1128
 ```bash
 checksum https://just.systems/install.sh 1f253751970e65ea59fee43e0f740e84f8eb5d43 | bash -s -- --to DEST
 ```
+
+# Contributors & Thanks
+
+Checksum.sh is maintained by [@gavinuhma](https://github.com/gavinuhma).
+
+Thank you to those who have contributued code and ideas through pull requests, issues, and comments!
+
+- [@BendingBender](https://github.com/BendingBender)
+- [@orblivion](https://github.com/orblivion)
+- [@rnhmjoj](https://github.com/rnhmjoj)
+- [@dundarious](https://github.com/dundarious)
+- [@vyings](https://github.com/vyings)
