@@ -125,7 +125,7 @@ checksum https://get-ghcup.haskell.org d1fe43ba1316fd89170c68d042dc2c6ac3979965 
 ### Install [Homebrew](https://brew.sh/#install)
 
 ```bash
-checksum https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh a49b628535c1f693c3c87e91ae55cae41fb1408e | bash
+checksum https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh 112869ebf4129eba57cac6217d4cd1b21344f274 | bash
 ```
 
 ### Install [Just](https://github.com/casey/just#pre-built-binaries)
