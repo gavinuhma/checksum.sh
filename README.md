@@ -83,7 +83,7 @@ _Note: If any of these install scripts have changed these commands will error be
 ### Install [Rust](https://www.rust-lang.org/tools/install)
 
 ```bash
-checksum https://sh.rustup.rs 8327fa6ce106d2a387fdd02cb95c3607193c2edb | sh
+checksum https://sh.rustup.rs 6282be0e90f8f9e041a4f714039e61bf8c03ad85 | sh
 ```
 
 ### Install [Cape](https://docs.capeprivacy.com/getting-started/)
@@ -95,16 +95,41 @@ checksum https://raw.githubusercontent.com/capeprivacy/cli/main/install.sh 23094
 ### Install [Nitrogen](https://github.com/capeprivacy/nitrogen)
 
 ```bash
-checksum https://raw.githubusercontent.com/capeprivacy/nitrogen/main/install.sh 6fe53cec000421f8052c6f267f170c6f9c47dffc | sh
+checksum https://raw.githubusercontent.com/capeprivacy/nitrogen/main/install.sh f403add95bde19aeba87f8e63e67b09af671d804 | sh
 ```
 
 ### Install [Nix](https://nixos.org/download.html)
 
 ```bash
-checksum https://nixos.org/nix/install 84b31e0093aaa169c1f580c2fbe2397d059d1983 | sh
+checksum https://nixos.org/nix/install 885201bc4da10dbd264778fbbdb4887e5304682a | sh
 ```
 
-### Install [Deno](https://deno.land/#installation)
+### Install [Deno](https://deno.land/manual/getting_started/installation)
+
 ```bash
 checksum https://deno.land/install.sh 57a4d67e64d2a7204541b9e131cedb289a79e834 | sh
+```
+
+### Install [Bun](https://bun.sh)
+
+```bash
+checksum https://bun.sh/install 86c651cf7aac32cceb3688f0a4e026776c965b49 | bash
+```
+
+### Install [Haskell](https://www.haskell.org/ghcup)
+
+```bash
+checksum https://get-ghcup.haskell.org d1fe43ba1316fd89170c68d042dc2c6ac3979965 | sh
+```
+
+### Install [Homebrew](https://brew.sh/#install)
+
+```bash
+checksum https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh 112869ebf4129eba57cac6217d4cd1b21344f274 | bash
+```
+
+### Install [Just](https://github.com/casey/just#pre-built-binaries)
+
+```bash
+checksum https://just.systems/install.sh 1f253751970e65ea59fee43e0f740e84f8eb5d43 | bash -s -- --to DEST
 ```
