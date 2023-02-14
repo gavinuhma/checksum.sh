@@ -131,5 +131,5 @@ checksum https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh 1128
 ### Install [Just](https://github.com/casey/just#pre-built-binaries)
 
 ```bash
-checksum https://just.systems/install.sh f14cc178ca9139c544fb97eaed166a4250165de6 | bash -s -- --to DEST
+checksum https://just.systems/install.sh 1f253751970e65ea59fee43e0f740e84f8eb5d43 | bash -s -- --to DEST
 ```
