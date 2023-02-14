@@ -101,7 +101,7 @@ checksum https://raw.githubusercontent.com/capeprivacy/nitrogen/main/install.sh 
 ### Install [Nix](https://nixos.org/download.html)
 
 ```bash
-checksum https://nixos.org/nix/install 6dff73c45c39c7b34fe013da8fcd7e72f8d3e047 | sh
+checksum https://nixos.org/nix/install 885201bc4da10dbd264778fbbdb4887e5304682a | sh
 ```
 
 ### Install [Deno](https://deno.land/manual/getting_started/installation)
